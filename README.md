@@ -16,13 +16,20 @@ The median price of a home has increased from $20,000 in the 1960s to over $400,
 The rate at which housing prices changed has been relatively similar to the inflation rate aswell.
 
 # Income and Spending
-It this section we looked at Personal Disposable Income(PDI), Personal Consumer Expenditures(PCE), aswell as income and wages between demographic groups.
+In this section, we looked at Personal Disposable Income(PDI), Personal Consumer Expenditures(PCE), aswell as income and wages between demographic groups.
 
 ## PCE vs PDI
-Do people make more than they spend? From just these two metrics, yes. Generally over time, PDI and PCE has both increased with people currently having a disposable income of over $20000. However, PCE has increased at the same rate. The gap between the graphs indicates money left for savings and non-immediate purchases.
-Note: Neither metric is adjusted for inflation, which means the data simply reflects the median raw dollar amount during these years. Also, there are many other metrics that need to be taken into account to show if people are truly making more then the median Personal Consumer Expenditure rate.
+Do people make more than they spend? From just these two metrics, yes. Generally, over time, PDI and PCE have both increased, with people currently having a disposable income of over $20000. However, PCE has increased at the same rate. The gap between the graphs indicates money left for savings and non-immediate purchases.
+Note: Neither metric is adjusted for inflation, which means the data simply reflects the median raw dollar amount during these years. Also, there are many other metrics that need to be taken into account to show if people are truly making more than the median Personal Consumer Expenditure rate.
 
-## Weekly Income for College Graduates and Non College Graduates.
-Moving on, to answer the commonly asked question, do college grads make more money. The answer is yes as seen from the graph display weekly pre tax and deduction incomes for both groups over time. This shows that higher education can equate to higher chance of financial stability, however, prices of tuition have increased by over 60% since 2000, meaning many college grads come out of college with debt(average of $27000) which can take longer to pay off.
+## Weekly Income for College Graduates and Non-College Graduates.
+![Image](https://github.com/user-attachments/assets/efe82288-1b88-4b64-b99a-f1d906c7ba28)
+
+Moving on, to answer the commonly asked question, do college grads make more money? The answer is yes, as seen from the graph displays weekly pre-tax and deduction incomes for both groups over time. This shows that higher education can equate to a higher chance of financial stability; however, prices of tuition have increased by over 60% since 2000, meaning many college grads come out of college with debt(average of $27000), which can take longer to pay off.
 
 ## Minimum Wage
+The first map visualization of this project shows the minimum wage of every state in 2025. Now, some states(Alabama, South Carolina, Tennessee, Louisiana, Mississippi) don't have a state minimum wage and default to the federal minimum wage of $7.25. Many other states have low minimum wages, like Texas, Pennsylvania, North Carolina, etc. Bigger blue states like California, Washington, New York, and Illinois have the highest minimum wages at or above $15 an hour.
+
+
+# Employment
+In this next section, we look at employment data. Unemployment tends to be cyclical due to changes in the world, like technology, the economy, and more. Most recently, the COVID-19 pandemic closed down many businesses, causing millions to lose their jobs. However, there was steady recovery after the initial boom, which led to the lowest unemployment since the 1960s at 3.4%. 
