@@ -58,3 +58,22 @@ On the other hand, the Dakotas have high LFPR aswell and low unemployment. This 
 Generally, the number of non-farm jobs in the US has gone up year after year. Some reasons for this are population growth, a changing economy from agriculture to services, and technological advancements.
 
 
+# Forecasting Inflation and Unemployment
+With the help of autoregressive integrated moving average(ARIMA), we can forecast the inflation rates. The AR part involves using past values to predict the future. The AR term can often be found with cut-offs in the Partial Autocorrelation Function(PACF) plot. The MA part is used to predict future values based on previous shock terms. The Autocorrelation Function(ACF) can help determine the AR term. 
+
+## Checking for stationarity
+One requirement for ARIMA models is that the data must be stationary. This means the data must have a constant mean, standard deviation, and no signs of seasonality or predictable patterns.
+
+![Image](https://github.com/user-attachments/assets/30e66ac3-9de5-4189-ae7f-b796a4b8bc58)
+
+The inflation data was initially not stationary, as we could see from the ADFuller test, meaning we needed differencing.
+
+## Parameters
+Using a brute force approach of finding models with low Akaike Information Criterion(AIC) and Bayesian Information Criterion(BIC) was helpful for finding the appropriate *p* and *q* values.	A lower value of these criteria indicates the model fits the data well without being too complex. From this, we see that using an ARIMA(4, 1, 2) model would be the best. 
+From the plot, we see the model fits the data well and gives good projections for the future.
+
+
+# Forecasting Unemployment
+Unemployment moves in cycles with peaks and troughs, with changes in the economy, technology, policies, etc. SARIMA models were meant to handle data like this. Using the same Box-Jenkins method, we found the non-seasonal and seasonal orders to predict unemployment. The majority of the data was used for training due to the COVID spike. The prediction data was alright, but could be improved, as seen in the plot.
+
+# Thank you
