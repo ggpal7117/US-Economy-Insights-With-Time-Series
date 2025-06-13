@@ -55,4 +55,6 @@ On the other hand, the Dakotas have high LFPR aswell and low unemployment. This 
 # Jobs
 ![Image](https://github.com/user-attachments/assets/af80c512-59ae-4a72-ae8d-280789fbb173)
 
+Generally, the number of non-farm jobs in the US has gone up year after year. Some reasons for this are population growth, a changing economy from agriculture to services, and technological advancements.
+
 
