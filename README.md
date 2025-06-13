@@ -15,6 +15,7 @@ CPI and Inflation are two terms that are similar but different. CPI is an essent
 The median price of a home has increased from $20,000 in the 1960s to over $400,000. The large increase in recent years is primarily due to supply issues, where demand for housing exceeds the available supply.
 The rate at which housing prices changed has been relatively similar to the inflation rate aswell.
 
+
 # Income and Spending
 In this section, we looked at Personal Disposable Income(PDI), Personal Consumer Expenditures(PCE), aswell as income and wages between demographic groups.
 
@@ -32,4 +33,19 @@ The first map visualization of this project shows the minimum wage of every stat
 
 
 # Employment
-In this next section, we look at employment data. Unemployment tends to be cyclical due to changes in the world, like technology, the economy, and more. Most recently, the COVID-19 pandemic closed down many businesses, causing millions to lose their jobs. However, there was steady recovery after the initial boom, which led to the lowest unemployment since the 1960s at 3.4%. 
+In this next section, we look at employment data. Unemployment tends to be cyclical due to changes in the world, like technology, the economy, and more. Most recently, the COVID-19 pandemic closed down many businesses, causing millions to lose their jobs. However, there was steady recovery after the initial boom, which led to the lowest unemployment since the 1960s at 3.4%. Labor Force Participation Rates(LFPR) are also another very important indicator showing how many people of the civilian population are working. Currently, the average LFPR is at the lowest level since the 1970s. This is because of an aging population, and the youth not working as much, with changes in behavioral health and personal beliefs. 
+
+### Unemployment by Education Level
+As mentioned earlier, college-educated people generally earn more, but from the graph in the subplot, we see they are also less likely to be unemployed. College-educated individuals typically have higher-demand skills, and many employers specifically look for college degrees on a resume.
+
+### Unemployment by Race
+In the graph showing unemployment by race, we see that Blacks and Latinos experience much higher rates of unemployment than Whites and Asians. Some of this is due to systemic issues in society and the workforce, where predominantly Hispanic and Black areas have fewer resources. Also, these individuals can face higher rates of racism and discrimination.
+
+### Unemployment by Age
+Unemployment for adults over 24 is generally quite low, but for young people, especially those out of college, rates are much higher than the national average. Reasons for this include that many people in this range look for their first jobs, and generally don't have the same level of experience as older people do. 
+
+## Unemployment by State
+The next map of this project looks at unemployment by state. Generally, states with higher populations have higher unemployment rates, such as California, Illinois, Nevada, and Michigan. Unemployment is the highest in Nevada due to the lingering effects of the pandemic and the general structure of its economy being dependent on tourism. Kentucky also experienced extraordinary levels of unemployment, primarily due to the decline in the coal industry. Other states like the Dakotas experience low levels of unemployment due to their business-friendly environment, key sectors like agriculture, and a large number of people who want to work. 
+
+## Labor Force Participation by State
+States with low unemployment don't necessarily have high labor force participation. For example, West Virginia's unemployment rate is similar to the national average; however, they have the lowest LFPR in America. This is because
