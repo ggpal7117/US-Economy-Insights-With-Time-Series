@@ -48,4 +48,11 @@ Unemployment for adults over 24 is generally quite low, but for young people, es
 The next map of this project looks at unemployment by state. Generally, states with higher populations have higher unemployment rates, such as California, Illinois, Nevada, and Michigan. Unemployment is the highest in Nevada due to the lingering effects of the pandemic and the general structure of its economy being dependent on tourism. Kentucky also experienced extraordinary levels of unemployment, primarily due to the decline in the coal industry. Other states like the Dakotas experience low levels of unemployment due to their business-friendly environment, key sectors like agriculture, and a large number of people who want to work. 
 
 ## Labor Force Participation by State
-States with low unemployment don't necessarily have high labor force participation. For example, West Virginia's unemployment rate is similar to the national average; however, they have the lowest LFPR in America. This is because
+States with low unemployment don't necessarily have high labor force participation. For example, West Virginia's unemployment rate is similar to the national average; however, they have the lowest LFPR in America. This is because of an old population, a young population that doesn't want to work, and a dying coal industry. Coal used to fuel the West Virginia economy, but now it has died down. The state also has a lot of drug issues and drug addiction. 
+On the other hand, the Dakotas have high LFPR aswell and low unemployment. This has a lot to due with the Dakotas' strong work culture. 
+
+
+# Jobs
+![Image](https://github.com/user-attachments/assets/af80c512-59ae-4a72-ae8d-280789fbb173)
+
+
