@@ -74,7 +74,7 @@ From the plot, we see the model fits the data well and gives good projections fo
 
 
 # Forecasting Unemployment
-Unemployment moves in cycles with peaks and troughs, with changes in the economy, technology, policies, etc. SARIMA models were meant to handle data that is seasonal; however, since the peaks and troughs aren't fixed, it is considered to be cyclical. Using the same Box-Jenkins method, we found the non-seasonal orders to predict unemployment. First, I used very large p and q values to find and identify the trends from past data. 22 AR and MA lags mean that the model will learn from 11 years of past data. However, this huge model likely cause/caused overfitting despite the somewhat accurate predictions.
+Unemployment moves in cycles with peaks and troughs, with changes in the economy, technology, policies, etc. SARIMA models were meant to handle data that is seasonal; however, since the peaks and troughs aren't fixed, it is considered to be cyclical. Using the same Box-Jenkins method, we found the non-seasonal orders to predict unemployment. First, I used very large p and q values to find and identify the trends from past data. 48 AR and 12 MA lags mean that the model will learn from 24 years of past data. However, this huge model likely cause/caused overfitting despite the somewhat accurate predictions.
 
 After this, I used auto_arima to find the best model and used a rolling forecast origin algorithm to determine the model's accuracy, which turned out to be very good.
 
