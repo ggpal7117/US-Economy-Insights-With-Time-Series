@@ -59,7 +59,7 @@ Generally, the number of non-farm jobs in the US has gone up year after year. So
 
 
 # Forecasting Inflation and Unemployment
-With the help of autoregressive integrated moving average(ARIMA), we can forecast the inflation rates. The AR part involves using past values to predict the future. The AR term can often be found with cut-offs in the Partial Autocorrelation Function(PACF) plot. The MA part is used to predict future values based on previous shock terms. The Autocorrelation Function(ACF) can help determine the AR term. 
+With the help of an autoregressive integrated moving average(ARIMA), we can forecast the inflation rates. The AR part involves using past values to predict the future. The AR term can often be found with cut-offs in the Partial Autocorrelation Function(PACF) plot. The MA part is used to predict future values based on previous shock terms. The Autocorrelation Function(ACF) can help determine the AR term. 
 
 ## Checking for stationarity
 One requirement for ARIMA models is that the data must be stationary. This means the data must have a constant mean, standard deviation, and no signs of seasonality or predictable patterns.
@@ -75,6 +75,7 @@ From the plot, we see the model fits the data well and gives good projections fo
 
 # Forecasting Unemployment
 Unemployment moves in cycles with peaks and troughs, with changes in the economy, technology, policies, etc. SARIMA models were meant to handle data that is seasonal; however, since the peaks and troughs aren't fixed, it is considered to be cyclical. Using the same Box-Jenkins method, we found the non-seasonal orders to predict unemployment. First, I used very large p and q values to find and identify the trends from past data. 48 AR and 12 MA lags mean that the model will learn from 24 years of past data. However, this huge model likely cause/caused overfitting despite the somewhat accurate predictions.
+**NOTE** We should have used a smaller number of lags, possibly even 22 for both p and q, based on the PACF and ACF plots.
 
 After this, I used auto_arima to find the best model and used a rolling forecast origin algorithm to determine the model's accuracy, which turned out to be very good.
 
